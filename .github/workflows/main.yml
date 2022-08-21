@@ -35,7 +35,7 @@ jobs:
           # ---  initial variables  --- #
           # --------------------------- #
 
-          USER=srevinsaju
+          USER=eljamm
           REPO=Brave-AppImage
 
           TAG_INPUT=${{ inputs.tag }}
