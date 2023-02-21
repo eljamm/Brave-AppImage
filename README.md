@@ -4,8 +4,17 @@
     </a>
 <h2 align="center">Brave AppImage</h2>
 
+<p align="center">
+    <a href="https://github.com/eljamm/Brave-AppImage/releases/latest/">
+        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/eljamm/Brave-Appimage?color=21BC29&label=stable&logo=brave&logoColor=21BC29&style=for-the-badge">
+    </a>
+    <a href="https://github.com/eljamm/Brave-AppImage/releases/">
+        <img alt="GitHub tag (latest SemVer pre-release)" src="https://img.shields.io/github/v/tag/eljamm/Brave-Appimage?color=yellow&include_prereleases&label=beta&logo=brave&logoColor=yellow&style=for-the-badge">
+    </a>
+</p>
+
   <p align="center">
-    Brave Stable, Beta, Dev and Nightly (unofficial) AppImages by GitHub Actions Continuous Integration
+    Brave Stable, Beta (unofficial) AppImages by GitHub Actions Continuous Integration
     <br>
     <a href="https://github.com/eljamm/Brave-Appimage/issues/new">Report bug</a>
     ·
@@ -17,32 +26,7 @@
 
 ## Get Started
 
-Download releases from
-
-<p align="center">
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/tag/stable">
-        <img alt="Latest Stable" src="https://img.shields.io/static/v1?label=latest&message=stable&color=orange&logo=brave&logoColor=orange&style=for-the-badge">
-    </a>
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/tag/beta">
-        <img alt="Latest Beta" src="https://img.shields.io/static/v1?label=latest&message=beta&color=blue&logo=brave&logoColor=blue&style=for-the-badge">
-    </a>
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/tag/dev">
-        <img alt="Latest Dev" src="https://img.shields.io/static/v1?label=latest&message=dev&color=blue&logo=brave&logoColor=blue&style=for-the-badge">
-    </a>
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/tag/nightly">
-        <img alt="Latest Nightly" src="https://img.shields.io/static/v1?label=latest&message=nightly&color=8250DF&logo=brave&logoColor=8250DF&style=for-the-badge">
-    </a>
-</p>
-<p align="center">
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/latest/">
-        <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/eljamm/Brave-Appimage?color=21BC29&label=stable&logo=brave&logoColor=21BC29&style=for-the-badge">
-    </a>
-    <a href="https://github.com/eljamm/Brave-AppImage/releases/">
-        <img alt="GitHub tag (latest SemVer pre-release)" src="https://img.shields.io/github/v/tag/eljamm/Brave-Appimage?color=yellow&include_prereleases&label=pre-release&logo=brave&logoColor=yellow&style=for-the-badge">
-    </a>
-</p>
-
-or, use [`zap`](https://github.com/srevinsaju/zap), the command line AppImage package manager:
+Download Brave from the [releases](https://github.com/eljamm/Brave-AppImage/releases) tab, or use [`zap`](https://github.com/srevinsaju/zap), the command line AppImage package manager:
 
 ```bash
 zap install --github --from=eljamm/Brave-AppImage brave-appimage
