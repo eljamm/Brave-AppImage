@@ -9,14 +9,20 @@ on:
         required: true
         default: "100"
         type: string
+      tag_pattern:
+        description: "Tag pattern to target for deletion"
+        required: false
+        default: ""
+        type: string
 
 jobs:
   Cleanup:
     runs-on: ubuntu-latest
     steps:
-      - uses: dev-drprasad/delete-older-releases@v0.2.0
+      - uses: dev-drprasad/delete-older-releases@v0.2.1
         with:
           keep_latest: ${{ inputs.keep }}
           delete_tags: true
+          delete_tag_pattern: ${{ inputs.tag_pattern }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
