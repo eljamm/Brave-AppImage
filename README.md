@@ -1,3 +1,7 @@
+> \[!WARNING\]\
+> I don't use this anymore since I've switched to [NixOS](https://nixos.org/).
+> Use [srevinsajuBrave-AppImage](https://github.com/srevinsaju/Brave-AppImage) instead.
+
 <p align="center">
     <a href="https://brave.com/">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Brave_lion_icon.svg" alt="Brave logo" width=110 height=128>
@@ -19,7 +23,7 @@
     </a>
 </p>
 
-  <p align="center">
+<p align="center">
     Brave Stable, Beta (unofficial) AppImages by GitHub Actions Continuous Integration
     <br>
     <a href="https://github.com/eljamm/Brave-Appimage/issues/new">Report bug</a>
